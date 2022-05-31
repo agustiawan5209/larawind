@@ -1,6 +1,6 @@
 <x-action-section>
     <x-slot name="content">
-        <h3 class="text-lg font-medium text-gray-900 dark:text-gray-300">
+        <h3 class="text-lg font-medium text-gray-900   ">
             @if ($this->enabled)
             {{ __('You have enabled two factor authentication.') }}
             @else
@@ -8,7 +8,7 @@
             @endif
         </h3>
 
-        <div class="max-w-xl mt-3 text-sm text-gray-600 dark:text-gray-400">
+        <div class="max-w-xl mt-3 text-sm text-gray-600   ">
             <p>
                 {{ __('When two factor authentication is enabled, you will be prompted for a secure, random token during authentication. You may retrieve this token from your phone\'s Google Authenticator application.') }}
             </p>
@@ -16,7 +16,7 @@
 
         @if ($this->enabled)
         @if ($showingQrCode)
-        <div class="max-w-xl mt-4 text-sm text-gray-600 dark:text-gray-400">
+        <div class="max-w-xl mt-4 text-sm text-gray-600   ">
             <p class="font-semibold">
                 {{ __('Two factor authentication is now enabled. Scan the following QR code using your phone\'s authenticator application.') }}
             </p>
@@ -28,7 +28,7 @@
         @endif
 
         @if ($showingRecoveryCodes)
-        <div class="max-w-xl mt-4 text-sm text-gray-600 dark:text-gray-400">
+        <div class="max-w-xl mt-4 text-sm text-gray-600   ">
             <p class="font-semibold">
                 {{ __('Store these recovery codes in a secure password manager. They can be used to recover access to your account if your two factor authentication device is lost.') }}
             </p>

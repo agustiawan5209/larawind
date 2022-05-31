@@ -15,7 +15,7 @@
 
                 <x-slot name="form">
                     <div class="col-span-6">
-                        <div class="max-w-xl text-sm text-gray-600 dark:text-gray-200">
+                        <div class="max-w-xl text-sm text-gray-600   ">
                             {{ __('Please provide the email address of the person you would like to add to this team. The email address must be associated with an existing account.') }}
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                                             <div class="{{ isset($addTeamMemberForm['role']) && $addTeamMemberForm['role'] !== $role->key ? 'opacity-50' : '' }}">
                                                 <!-- Role Name -->
                                                 <div class="flex items-center">
-                                                    <div class="text-sm text-gray-600 dark:text-gray-200 {{ $addTeamMemberForm['role'] == $role->key ? 'font-semibold' : '' }}">
+                                                    <div class="text-sm text-gray-600    {{ $addTeamMemberForm['role'] == $role->key ? 'font-semibold' : '' }}">
                                                         {{ $role->name }}
                                                     </div>
 
@@ -50,7 +50,7 @@
                                                 </div>
 
                                                 <!-- Role Description -->
-                                                <div class="mt-2 text-xs text-gray-600 dark:text-gray-200">
+                                                <div class="mt-2 text-xs text-gray-600   ">
                                                     {{ $role->description }}
                                                 </div>
                                             </div>
@@ -145,7 +145,7 @@
                             <div class="{{ $currentRole !== $role->key ? 'opacity-50' : '' }}">
                                 <!-- Role Name -->
                                 <div class="flex items-center">
-                                    <div class="text-sm text-gray-600 dark:text-gray-200 {{ $currentRole == $role->key ? 'font-semibold' : '' }}">
+                                    <div class="text-sm text-gray-600    {{ $currentRole == $role->key ? 'font-semibold' : '' }}">
                                         {{ $role->name }}
                                     </div>
 
@@ -155,7 +155,7 @@
                                 </div>
 
                                 <!-- Role Description -->
-                                <div class="mt-2 text-xs text-gray-600 dark:text-gray-200">
+                                <div class="mt-2 text-xs text-gray-600   ">
                                     {{ $role->description }}
                                 </div>
                             </div>

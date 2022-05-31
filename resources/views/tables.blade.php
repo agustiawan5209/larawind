@@ -1,11 +1,11 @@
 <x-app-layout title="Tables">
     <div class="container grid px-6 mx-auto">
-        <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
+        <h2 class="my-6 text-2xl font-semibold text-gray-700   ">
             Tables
         </h2>
 
         <!-- With avatar -->
-        <h4 class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        <h4 class="mb-4 text-lg font-semibold text-gray-600   ">
             Table with avatars
         </h4>
         <div class="w-full mb-8 overflow-hidden rounded-lg shadow-xs">
@@ -13,15 +13,15 @@
                 <table class="w-full whitespace-no-wrap">
                     <thead>
                         <tr
-                            class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
+                            class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b   bg-gray-50      ">
                             <th class="px-4 py-3">Client</th>
                             <th class="px-4 py-3">Amount</th>
                             <th class="px-4 py-3">Status</th>
                             <th class="px-4 py-3">Date</th>
                         </tr>
                     </thead>
-                    <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
-                        <tr class="text-gray-700 dark:text-gray-400">
+                    <tbody class="bg-white divide-y     ">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -34,7 +34,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Hans Burger</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             10x Developer
                                         </p>
                                     </div>
@@ -45,7 +45,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -54,7 +54,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -67,7 +67,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Jolina Angelie</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Unemployed
                                         </p>
                                     </div>
@@ -78,7 +78,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600">
+                                    class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full      ">
                                     Pending
                                 </span>
                             </td>
@@ -87,7 +87,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -100,7 +100,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Sarah Curry</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Designer
                                         </p>
                                     </div>
@@ -111,7 +111,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-700">
+                                    class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full      ">
                                     Denied
                                 </span>
                             </td>
@@ -120,7 +120,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -133,7 +133,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Rulia Joberts</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Actress
                                         </p>
                                     </div>
@@ -144,7 +144,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -153,7 +153,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -166,7 +166,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Wenzel Dashington</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Actor
                                         </p>
                                     </div>
@@ -177,7 +177,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full dark:text-gray-100 dark:bg-gray-700">
+                                    class="px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full      ">
                                     Expired
                                 </span>
                             </td>
@@ -186,7 +186,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -199,7 +199,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Dave Li</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Influencer
                                         </p>
                                     </div>
@@ -210,7 +210,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -219,7 +219,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -232,7 +232,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Maria Ramovic</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Runner
                                         </p>
                                     </div>
@@ -243,7 +243,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -252,7 +252,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -265,7 +265,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Hitney Wouston</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Singer
                                         </p>
                                     </div>
@@ -276,7 +276,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -285,7 +285,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -298,7 +298,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Hans Burger</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             10x Developer
                                         </p>
                                     </div>
@@ -309,7 +309,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -321,7 +321,7 @@
                 </table>
             </div>
             <div
-                class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800">
+                class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t   bg-gray-50 sm:grid-cols-9      ">
                 <span class="flex items-center col-span-3">
                     Showing 21-30 of 100
                 </span>
@@ -400,7 +400,7 @@
         </div>
 
         <!-- With actions -->
-        <h4 class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        <h4 class="mb-4 text-lg font-semibold text-gray-600   ">
             Table with actions
         </h4>
         <div class="w-full overflow-hidden rounded-lg shadow-xs">
@@ -408,7 +408,7 @@
                 <table class="w-full whitespace-no-wrap">
                     <thead>
                         <tr
-                            class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
+                            class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b   bg-gray-50      ">
                             <th class="px-4 py-3">Client</th>
                             <th class="px-4 py-3">Amount</th>
                             <th class="px-4 py-3">Status</th>
@@ -416,8 +416,8 @@
                             <th class="px-4 py-3">Actions</th>
                         </tr>
                     </thead>
-                    <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
-                        <tr class="text-gray-700 dark:text-gray-400">
+                    <tbody class="bg-white divide-y     ">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -430,7 +430,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Hans Burger</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             10x Developer
                                         </p>
                                     </div>
@@ -441,7 +441,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -451,7 +451,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -461,7 +461,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -474,7 +474,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -487,7 +487,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Jolina Angelie</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Unemployed
                                         </p>
                                     </div>
@@ -498,7 +498,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600">
+                                    class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full      ">
                                     Pending
                                 </span>
                             </td>
@@ -508,7 +508,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -518,7 +518,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -531,7 +531,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -544,7 +544,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Sarah Curry</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Designer
                                         </p>
                                     </div>
@@ -555,7 +555,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-700">
+                                    class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full      ">
                                     Denied
                                 </span>
                             </td>
@@ -565,7 +565,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -575,7 +575,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -588,7 +588,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -601,7 +601,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Rulia Joberts</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Actress
                                         </p>
                                     </div>
@@ -612,7 +612,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -622,7 +622,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -632,7 +632,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -645,7 +645,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -658,7 +658,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Wenzel Dashington</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Actor
                                         </p>
                                     </div>
@@ -669,7 +669,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full dark:text-gray-100 dark:bg-gray-700">
+                                    class="px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full      ">
                                     Expired
                                 </span>
                             </td>
@@ -679,7 +679,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -689,7 +689,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -702,7 +702,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -715,7 +715,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Dave Li</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Influencer
                                         </p>
                                     </div>
@@ -726,7 +726,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -736,7 +736,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -746,7 +746,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -759,7 +759,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -772,7 +772,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Maria Ramovic</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Runner
                                         </p>
                                     </div>
@@ -783,7 +783,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -793,7 +793,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -803,7 +803,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -816,7 +816,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -829,7 +829,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Hitney Wouston</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             Singer
                                         </p>
                                     </div>
@@ -840,7 +840,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -850,7 +850,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -860,7 +860,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -873,7 +873,7 @@
                             </td>
                         </tr>
 
-                        <tr class="text-gray-700 dark:text-gray-400">
+                        <tr class="text-gray-700   ">
                             <td class="px-4 py-3">
                                 <div class="flex items-center text-sm">
                                     <!-- Avatar with inset shadow -->
@@ -886,7 +886,7 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold">Hans Burger</p>
-                                        <p class="text-xs text-gray-600 dark:text-gray-400">
+                                        <p class="text-xs text-gray-600   ">
                                             10x Developer
                                         </p>
                                     </div>
@@ -897,7 +897,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span
-                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
+                                    class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full    ">
                                     Approved
                                 </span>
                             </td>
@@ -907,7 +907,7 @@
                             <td class="px-4 py-3">
                                 <div class="flex items-center space-x-4 text-sm">
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Edit">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -917,7 +917,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
+                                        class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg    focus:outline-none focus:shadow-outline-gray"
                                         aria-label="Delete">
                                         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor"
                                             viewBox="0 0 20 20">
@@ -933,7 +933,7 @@
                 </table>
             </div>
             <div
-                class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800">
+                class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t   bg-gray-50 sm:grid-cols-9      ">
                 <span class="flex items-center col-span-3">
                     Showing 21-30 of 100
                 </span>

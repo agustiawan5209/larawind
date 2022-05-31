@@ -1,6 +1,6 @@
 @props(['submit'])
 
-<div {{ $attributes->merge(['class' => 'mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800']) }}>
+<div {{ $attributes->merge(['class' => 'mb-8 bg-white rounded-lg shadow-md   ']) }}>
     <div class="mt-5 md:mt-0 md:col-span-2">
         <form wire:submit.prevent="{{ $submit }}">
             <div class="overflow-hidden">

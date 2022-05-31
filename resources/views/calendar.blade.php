@@ -1,13 +1,13 @@
 <x-app-layout title="Calendar">
     <div class="container grid px-6 mx-auto">
-        <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-300 dark:text-gray-200">
+        <h2 class="my-6 text-2xl font-semibold text-gray-700 ">
             Calendar
         </h2>
         <div class="h-screen antialiased">
             <div x-data="app()" x-init="[initDate(), getNoOfDays()]" x-cloak>
 
 
-                <div class="overflow-hidden rounded-lg shadow-md dark:bg-gray-800">
+                <div class="overflow-hidden rounded-lg shadow-md">
 
                     <div class="flex items-center justify-between px-6 py-2">
                         <div>
@@ -44,9 +44,9 @@
                             </template>
                             <template x-for="(date, dateIndex) in no_of_days" :key="dateIndex">
                                 <div style="width: 14.28%; height: 120px" class="relative px-4 pt-2 border-b border-r">
-                                    <div @click="showEventModal(date)" x-text="date" class="inline-flex items-center justify-center w-6 h-6 leading-none text-center transition duration-100 ease-in-out rounded-full cursor-pointer" :class="{'bg-blue-500 text-white': isToday(date) == true, 'text-gray-700 dark:text-gray-300 dark:text-gray-300 hover:bg-blue-200': isToday(date) == false }"></div>
+                                    <div @click="showEventModal(date)" x-text="date" class="inline-flex items-center justify-center w-6 h-6 leading-none text-center transition duration-100 ease-in-out rounded-full cursor-pointer" :class="{'bg-blue-500 text-white': isToday(date) == true, 'text-gray-700 hover:bg-blue-200': isToday(date) == false }"></div>
                                     <div style="height: 80px;" class="mt-1 overflow-y-auto">
-                                        <!-- <div 
+                                        <!-- <div
 										class="absolute top-0 right-0 inline-flex items-center justify-center w-6 h-6 mt-2 mr-2 text-sm leading-none text-white bg-gray-700 rounded-full"
 										x-show="events.filter(e => e.event_date === new Date(year, month, date).toDateString()).length"
 										x-text="events.filter(e => e.event_date === new Date(year, month, date).toDateString()).length"></div> -->
@@ -84,24 +84,24 @@
 
                             <div class="mb-4">
                                 <label class="block mb-1 text-sm font-bold tracking-wide text-gray-800">Event title</label>
-                                <input class="w-full px-4 py-2 leading-tight text-gray-700 bg-gray-200 border-2 border-gray-200 rounded-lg appearance-none dark:text-gray-300 focus:outline-none focus:bg-white focus:border-blue-500" type="text" x-model="event_title">
+                                <input class="w-full px-4 py-2 leading-tight text-gray-700 bg-gray-200 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-white focus:border-blue-500" type="text" x-model="event_title">
                             </div>
 
                             <div class="mb-4">
                                 <label class="block mb-1 text-sm font-bold tracking-wide text-gray-800">Event date</label>
-                                <input class="w-full px-4 py-2 leading-tight text-gray-700 bg-gray-200 border-2 border-gray-200 rounded-lg appearance-none dark:text-gray-300 focus:outline-none focus:bg-white focus:border-blue-500" type="text" x-model="event_date" readonly>
+                                <input class="w-full px-4 py-2 leading-tight text-gray-700 bg-gray-200 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-white focus:border-blue-500" type="text" x-model="event_date" readonly>
                             </div>
 
                             <div class="inline-block w-64 mb-4">
                                 <label class="block mb-1 text-sm font-bold tracking-wide text-gray-800">Select a theme</label>
                                 <div class="relative">
-                                    <select @change="event_theme = $event.target.value;" x-model="event_theme" class="block w-full px-4 py-2 pr-8 leading-tight text-gray-700 bg-gray-200 border-2 border-gray-200 rounded-lg appearance-none dark:text-gray-300 hover:border-gray-500 focus:outline-none focus:bg-white focus:border-blue-500">
+                                    <select @change="event_theme = $event.target.value;" x-model="event_theme" class="block w-full px-4 py-2 pr-8 leading-tight text-gray-700 bg-gray-200 border-2 border-gray-200 rounded-lg appearance-none hover:border-gray-500 focus:outline-none focus:bg-white focus:border-blue-500">
                                         <template x-for="(theme, index) in themes">
                                             <option :value="theme.value" x-text="theme.label"></option>
                                         </template>
 
                                     </select>
-                                    <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none dark:text-gray-300">
+                                    <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
                                         <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                                     </div>
@@ -109,7 +109,7 @@
                             </div>
 
                             <div class="mt-8 text-right">
-                                <button type="button" class="px-4 py-2 mr-2 font-semibold text-gray-700 bg-white border border-gray-300 rounded-lg shadow-sm dark:text-gray-300 hover:bg-gray-100" @click="openEventModal = !openEventModal">
+                                <button type="button" class="px-4 py-2 mr-2 font-semibold text-gray-700 bg-white border border-gray-300 rounded-lg shadow-sm hover:bg-gray-100" @click="openEventModal = !openEventModal">
                                     Cancel
                                 </button>
                                 <button type="button" class="px-4 py-2 font-semibold text-white bg-gray-800 border border-gray-700 rounded-lg shadow-sm hover:bg-gray-700" @click="addEvent()">

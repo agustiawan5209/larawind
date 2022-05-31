@@ -1,11 +1,11 @@
 <x-app-layout title="Buttons">
     <div class="container grid px-6 mx-auto">
-        <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
+        <h2 class="my-6 text-2xl font-semibold text-gray-700">
             Buttons
         </h2>
 
         <!-- Button sizes -->
-        <h4 class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        <h4 class="mb-4 text-lg font-semibold text-gray-600">
             Sizes
         </h4>
         <div class="flex flex-col flex-wrap mb-4 space-y-4 md:flex-row md:items-end md:space-x-4">
@@ -32,7 +32,7 @@
 
             <!-- Divs are used just to display the examples. Use only the button. -->
             <div>
-                <!-- For disabled buttons ADD these classes: 
+                <!-- For disabled buttons ADD these classes:
       opacity-50 cursor-not-allowed
 
       And REMOVE these classes:
@@ -50,14 +50,14 @@
                 </button>
             </div>
         </div>
-        <p class="mb-8 text-gray-700 dark:text-gray-400">
+        <p class="mb-8 text-gray-700">
             Apply
             <code>w-full</code>
             to any button to create a block level button.
         </p>
 
         <!-- Buttons with icons -->
-        <h4 class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        <h4 class="mb-4 text-lg font-semibold text-gray-600">
             Icons
         </h4>
         <div class="flex flex-col flex-wrap mb-8 space-y-4 md:flex-row md:items-end md:space-x-4">

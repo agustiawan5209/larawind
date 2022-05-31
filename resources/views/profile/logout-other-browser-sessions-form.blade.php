@@ -1,6 +1,6 @@
 <x-action-section>
     <x-slot name="content">
-        <div class="max-w-xl text-sm text-gray-900 dark:text-gray-300">
+        <div class="max-w-xl text-sm text-gray-900   ">
             {{ __('If necessary, you may logout of all of your other browser sessions across all of your devices. If you feel your account has been compromised, you should also update your password.') }}
         </div>
 
@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="ml-3">
-                    <div class="text-sm text-gray-900 dark:text-gray-300">
+                    <div class="text-sm text-gray-900   ">
                         {{ $session->agent->platform() }} - {{ $session->agent->browser() }}
                     </div>
 

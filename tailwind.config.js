@@ -18,6 +18,7 @@ module.exports = {
         }),
         colors: {
             transparent: 'transparent',
+            native: '#2B322A',
             white: '#ffffff',
             black: '#000000',
             gray: {
