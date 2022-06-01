@@ -28,7 +28,7 @@
 <body>
     <div>
         <!-- ====== Navbar Section Start -->
-        <div class="ud-header  top-0 left-0 z-40 flex w-full items-center bg-transparent fixed sticky">
+        <div class="ud-header  top-0 left-0 z-40 flex w-full items-center bg-transparent fixed sticky bg-white">
             <div class="container">
                 <div class="relative -mx-4 flex items-center justify-between">
                     <div class="w-60 max-w-full px-4">

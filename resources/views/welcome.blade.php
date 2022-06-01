@@ -41,15 +41,11 @@
                 <div class="w-full px-4">
                     <div class="mb-12 max-w-[620px] lg:mb-20">
                         <span class="mb-2 block text-lg font-semibold text-primary">
-                            Features
+                            CV. THAHIRA
                         </span>
                         <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">
-                            Main Features Of Play
+                             Jumlah Stock Bahan Baku
                         </h2>
-                        <p class="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">
-                            There are many variations of passages of Lorem Ipsum available
-                            but the majority have suffered alteration in some form.
-                        </p>
                     </div>
                 </div>
             </div>
