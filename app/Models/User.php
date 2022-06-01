@@ -25,7 +25,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password','role_id' ,'phone'
     ];
 
     /**
@@ -34,6 +34,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
+        'role_id',
         'password',
         'remember_token',
         'two_factor_recovery_codes',
@@ -57,4 +58,14 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function role(){
+        return $this->hasOne(Role::class, 'user_id');
+    }
+    public function supplier(){
+        return $this->hasOne(Suppliers::class, 'user_id');
+    }
+    public function customer(){
+        return $this->hasOne(Customer::class, 'user_id');
+    }
 }
