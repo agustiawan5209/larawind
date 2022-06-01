@@ -12,6 +12,7 @@ use App\Http\Livewire\Master\PageSupplier;
 use App\Http\Livewire\Transaksi\PageBarangKeluar;
 use App\Http\Livewire\Transaksi\PageBarangMasuk;
 use App\Http\Livewire\Transaksi\PagePemesesananBarang;
+use App\Models\Stock;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,7 +27,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome',[ 'stock'=> Stock::all()]);
 })->name('welcome');
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
