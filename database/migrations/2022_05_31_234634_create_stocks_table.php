@@ -15,8 +15,9 @@ class CreateStocksTable extends Migration
     {
         Schema::create('stocks', function (Blueprint $table) {
             $table->id();
-            $table->string('bawaan_id');
-            $table->string('produk_id');
+            $table->foreignId('bawaan_id')->nullable();
+            $table->foreignId('bahanbaku_air_id')->nullable();
+            // $table->string('produk_id');
             $table->integer('jumlah_stock');
             $table->string('satuan', 100);
             $table->date('tgl_stock')->nullable();

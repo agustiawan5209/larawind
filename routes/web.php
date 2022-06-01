@@ -27,7 +27,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome',[ 'stock'=> Stock::all()]);
+    $StockPacking = Stock::whereNotNull('bawaan_id')->get();
+    $StockAir = Stock::whereNotNull('bahanbaku_air_id')->get();
+    // dd($StockPacking);
+    return view('welcome',[ 'StockPacking'=> $StockPacking, 'StockAir'=> $StockAir]);
 })->name('welcome');
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

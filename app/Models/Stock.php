@@ -9,7 +9,7 @@ class Stock extends Model
 {
     protected $table = 'stocks';
     protected $primary_key = 'id';
-    protected $fillable = ['bahan_baku_id', 'jumlah_stock','satuan', 'tgl_stock'];
+    protected $fillable = ['bawaan_id' , 'bahanbaku_air_id', 'jumlah_stock','satuan', 'tgl_stock'];
     use HasFactory;
 
     public function Produk()
@@ -17,6 +17,9 @@ class Stock extends Model
         return $this->hasOne(Produk::class);
     }
     public function default_stock(){
-        return $this->belongsTo(Bawaan::class);
+        return $this->belongsTo(Bawaan::class , 'bawaan_id');
+    }
+    public function default_Bahan_air(){
+        return $this->belongsTo(BawaanBahanBakuAir::class, 'bahanbaku_air_id');
     }
 }

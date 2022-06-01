@@ -79,13 +79,13 @@
                                         <li class="group relative">
                                             <a href="#stock"
                                                 class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7  xl:ml-12">
-                                                Stock Bahan Baku
+                                                Stock Packing
                                             </a>
                                         </li>
                                         <li class="group relative">
-                                            <a href="#about"
+                                            <a href="#StockBahanAir"
                                                 class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7  xl:ml-12">
-                                                Tentang Kami
+                                                Stock Bahan Air Mineral
                                             </a>
                                         </li>
                                         <li class="group relative">

@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Bawaan extends Model
+class BawaanBahanBakuAir extends Model
 {
-    protected $table = 'bawaans';
-    protected $fillable = ['id','gambar','bahan_baku', 'bbs', 'maxbb'];
+    protected $table = 'bawaan_bahan_baku_airs';
+    protected $fillable = ['id','gambar','bahan_baku'];
     use HasFactory;
 
     public function stock()
@@ -18,7 +18,7 @@ class Bawaan extends Model
     public function Supplier(){
         return $this->hasOne(Suppliers::class);
     }
-    public function bahan_baku(){
-        return $this->hasMany(BahanBaku::class, 'bawaan_id');
-    }
+    // public function bahan_baku(){
+    //     return $this->hasMany(BahanBaku::class, 'bawaan_id');
+    // }
 }

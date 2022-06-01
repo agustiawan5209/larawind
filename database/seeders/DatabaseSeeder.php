@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\BahanBaku;
 use App\Models\Bawaan;
+use App\Models\BawaanBahanBakuAir;
 use App\Models\Customer;
 use App\Models\Persediaan;
 use App\Models\Stock;
@@ -244,87 +245,85 @@ class DatabaseSeeder extends Seeder
         $stock = [
             [
                 'bawaan_id' => '1',
-                'produk_id' => '1',
+                'bahanbaku_air_id' => null,
                 'jumlah_stock' => '80',
                 'satuan' => 'DUS',
                 'tgl_stock' => '2020-05-14',
             ],
             [
                 'bawaan_id' => '2',
-                'produk_id' => '2',
+                'bahanbaku_air_id' => null,
                 'jumlah_stock' => '40',
                 'satuan' => 'DUS',
                 'tgl_stock' => '2020-05-14',
             ],
             [
                 'bawaan_id' => '3',
-                'produk_id' => '3',
+                'bahanbaku_air_id' => null,
                 'jumlah_stock' => '25',
                 'satuan' => 'DUS',
                 'tgl_stock' => '2020-05-14',
             ],
             [
                 'bawaan_id' => '4',
-                'produk_id' => '4',
+                'bahanbaku_air_id' => null,
                 'jumlah_stock' => '25000',
                 'satuan' => 'DUS',
                 'tgl_stock' => '2020-05-14',
             ],
             [
-                'bawaan_id' => '5',
-                'produk_id' => '5',
-                'jumlah_stock' => '7200',
+                'bawaan_id' => null,
+                'bahanbaku_air_id' => '1',
+                'jumlah_stock' => '25000',
+                'satuan' => 'Kg',
+                'tgl_stock' => '2020-05-14',
+            ],
+            [
+                'bawaan_id' => null,
+                'bahanbaku_air_id' => '2',
+                'jumlah_stock' => '25000',
+                'satuan' => 'Kg',
+                'tgl_stock' => '2020-05-14',
+            ],
+            [
+                'bawaan_id' => null,
+                'bahanbaku_air_id' => '3',
+                'jumlah_stock' => '25000',
+                'satuan' => 'Kg',
+                'tgl_stock' => '2020-05-14',
+            ],
+            [
+                'bawaan_id' => null,
+                'bahanbaku_air_id' => '4',
+                'jumlah_stock' => '25000',
+                'satuan' => 'Kg',
+                'tgl_stock' => '2020-05-14',
+            ],
+            [
+                'bawaan_id' => null,
+                'bahanbaku_air_id' => '5',
+                'jumlah_stock' => '25000',
                 'satuan' => 'DUS',
                 'tgl_stock' => '2020-05-14',
             ],
         ];
         Stock::insert($stock);
-        $bahan = [
-            [
-                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
-                'bawaan_id' => '1',
-                'isi' => '24',
-                'harga' => '3200',
-                'suppliers_id' => '1'
-            ],
-            [
-                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
-                'bawaan_id' => '4',
-                'isi' => '30',
-                'harga' => '225000',
-                'suppliers_id' => '2'
-            ],
-            [
-                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
-                'bawaan_id' => '3',
-                'isi' => '29',
-                'harga' => '225000',
-                'suppliers_id' => '3'
-            ],
-            [
-                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
-                'bawaan_id' => '2',
-                'isi' => '80',
-                'harga' => '375000',
-                'suppliers_id' => '3'
-            ],
-            [
-                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
-                'bawaan_id' => '5',
-                'isi' => '100',
-                'harga' => '72000',
-                'suppliers_id' => '4'
-            ]
-        ];
-        BahanBaku::insert($bahan);
+
         $dfStock = [
-            ['bahan_baku' => 'Dus', "bbs" => '1', 'maxbb' => '20'],
-            ['bahan_baku' => 'Sedotan', "bbs" => '50', 'maxbb' => '16'],
-            ['bahan_baku' => 'Cup', "bbs" => '24', 'maxbb' => '15'],
-            ['bahan_baku' => 'Penutup', "bbs" => '24', 'maxbb' => '13'],
-            ['bahan_baku' => 'Lakban Bening', "bbs" => '1', 'maxbb' => '20'],
+            [ 'gambar'=> "kardus.png" , 'bahan_baku' => 'Dus', "bbs" => '1', 'maxbb' => '20'],
+            [ 'gambar'=> "pipet.png" , 'bahan_baku' => 'Pipet/Sedotan', "bbs" => '50', 'maxbb' => '16'],
+            [ 'gambar'=> "cup.png" , 'bahan_baku' => 'Cup/Gelas', "bbs" => '24', 'maxbb' => '15'],
+            [ 'gambar'=> "lid_cup.png" , 'bahan_baku' => 'Lid Cup/Penutup', "bbs" => '24', 'maxbb' => '13'],
         ];
         Bawaan::insert($dfStock);
+        $BBBA = [
+            [ 'gambar'=> "karbon_aktif.jpg" , 'bahan_baku' => 'Karbon Aktif'],
+            [ 'gambar'=> "magnesium.webp" , 'bahan_baku' => 'Magnesium',],
+            [ 'gambar'=> "pasir_aktif.jpg" , 'bahan_baku' => 'Pasir Aktif', ],
+            [ 'gambar'=> "pasir_silica.jpg" , 'bahan_baku' => 'Pasir Silica',],
+            [ 'gambar'=> "post_carbon_filter.jpg" , 'bahan_baku' => 'Post Carbon Filter',],
+        ];
+        BawaanBahanBakuAir::insert($BBBA);
         $persediaan = [
             [
                 'bahan_baku' => '1',
@@ -356,5 +355,36 @@ class DatabaseSeeder extends Seeder
             ],
         ];
         Persediaan::insert($persediaan);
+        $bahan = [
+            [
+                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
+                'bawaan_id' => '1',
+                'isi' => '24',
+                'harga' => '3200',
+                'suppliers_id' => '1'
+            ],
+            [
+                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
+                'bawaan_id' => '4',
+                'isi' => '30',
+                'harga' => '225000',
+                'suppliers_id' => '2'
+            ],
+            [
+                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
+                'bawaan_id' => '3',
+                'isi' => '29',
+                'harga' => '225000',
+                'suppliers_id' => '3'
+            ],
+            [
+                'gambar' => '34a3d30947d41b187382be3d3fd44e8b.png',
+                'bawaan_id' => '2',
+                'isi' => '80',
+                'harga' => '375000',
+                'suppliers_id' => '3'
+            ],
+        ];
+        BahanBaku::insert($bahan);
     }
 }
