@@ -16,7 +16,7 @@
                 </div>
                 <div>
                     <p class="mb-2 text-sm font-medium text-gray-600 ">
-                        Total clients
+                        Total Pelanggan Bulan Ini
                     </p>
                     <p class="text-lg font-semibold text-gray-700 ">
                         6389
@@ -32,7 +32,7 @@
                 </div>
                 <div>
                     <p class="mb-2 text-sm font-medium text-gray-600 ">
-                        Account balance
+                        Total Pembelian Bulan Ini
                     </p>
                     <p class="text-lg font-semibold text-gray-700 ">
                         $ 46,760.89
@@ -49,7 +49,7 @@
                 </div>
                 <div>
                     <p class="mb-2 text-sm font-medium text-gray-600 ">
-                        New sales
+                        Total Penjualan Bulan Ini
                     </p>
                     <p class="text-lg font-semibold text-gray-700 ">
                         376
@@ -65,7 +65,7 @@
                 </div>
                 <div>
                     <p class="mb-2 text-sm font-medium text-gray-600 ">
-                        Pending contacts
+                        Status Pemesanan Bahan Baku Belum Sampai
                     </p>
                     <p class="text-lg font-semibold text-gray-700 ">
                         35

@@ -3,10 +3,9 @@
         {{ config('app.name') }}
     </a>
     <ul class="mt-6">
-        <li class="relative px-6 py-3">
-            {!! request()->routeIs('dashboard') ? '<span class="absolute inset-y-0 left-0 w-1 bg-white rounded-tr-lg rounded-br-lg" aria-hidden="true"></span>' : '' !!}
+        <li class="relative px-6 py-3 {!! request()->routeIs('dashboard')  ? 'bg-white rounded-tl-lg rounded-bl-lg hover:text-dark rounded-br-lg rounded-tr-lg' : '' !!}">
             <a data-turbolinks-action="replace"
-                class="inline-flex items-center w-full text-white text-sm font-semibold transition-colors duration-150     "
+                class="inline-flex items-center w-full {!! request()->routeIs('dashboard')  ?  'text-primary hover:text-blue-500' : 'text-white hover:text-gray-100' !!} text-sm font-semibold transition-colors duration-150     "
                 href="{{ route('dashboard') }}">
                 <svg class="w-5 h-5" ari a-hidden="true" fill="none" stroke-linecap="round"
                     stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
