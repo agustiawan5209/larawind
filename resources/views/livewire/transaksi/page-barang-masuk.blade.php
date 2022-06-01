@@ -131,6 +131,7 @@
                     <th class="px-4 py-3" data-priority="3">Supplier</th>
                     <th class="px-4 py-3" data-priority="5">Jumlah Pembelian</th>
                     <th class="px-4 py-3" data-priority="2">Sub Total</th>
+                    <th class="px-4 py-3" data-priority="2">Status</th>
                     <th class="px-4 py-3" data-priority="2">Transaksi </th>
                     <th class="px-4 py-3" data-priority="1">Action</th>
                 </tr>
@@ -145,6 +146,7 @@
                             <td>{{ $item->supplier_id }}</td>
                             <td>{{ $item->jumlah_pembelian }}</td>
                             <td>{{ $item->sub_total }}</td>
+                            <td>{{ $item->status }}</td>
                             <td>{{ $item->transaksi->tgl_transaksi }}</td>
                             <td>
                                 <ul class="flex justify-around">

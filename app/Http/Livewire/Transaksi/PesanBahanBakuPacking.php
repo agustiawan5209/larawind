@@ -11,7 +11,7 @@ use App\Models\Transaksi;
 use App\Models\BarangMasuk;
 use App\Models\DetailPesanan;
 
-class PagePesanBahanBaku extends Component
+class PesanBahanBakuPacking extends Component
 {
     public $modal = false;
     public $kirim, $itemTab, $BB, $Additem, $kode_transaksi;
@@ -27,6 +27,7 @@ class PagePesanBahanBaku extends Component
         $this->IDtabOpen = true;
         $this->itemTab = $bahan_sp;
         // dd($bahan_sp);
+        // dd($this->itemTab);
     }
     public function modalOpen()
     {
@@ -175,7 +176,7 @@ class PagePesanBahanBaku extends Component
     {
         $this->BB = BahanBaku::all();
         $supplier = Suppliers::all();
-        return view('livewire.transaksi.page-pesan-bahan-baku', [
+        return view('livewire.transaksi.pesan-bahan-baku-packing', [
             'tbSupplier' => $supplier,
         ]);
     }

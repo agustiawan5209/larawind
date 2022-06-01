@@ -12,6 +12,9 @@ use App\Http\Livewire\Master\PageSupplier;
 use App\Http\Livewire\Transaksi\PageBarangKeluar;
 use App\Http\Livewire\Transaksi\PageBarangMasuk;
 use App\Http\Livewire\Transaksi\PagePemesesananBarang;
+use App\Http\Livewire\Transaksi\PagePesanBahanBaku;
+use App\Http\Livewire\Transaksi\PesanBahanBakuAir;
+use App\Http\Livewire\Transaksi\PesanBahanBakuPacking;
 use App\Models\Stock;
 use Illuminate\Support\Facades\Route;
 
@@ -66,6 +69,8 @@ Route::group(['middleware' => ['auth']], function () {
         Route::get('/Laporan/Data-Penjualan-Air-Mineral', LaporanPenjualanAirMineral::class)->name('Nav.LaporanenjualanAirMineral');
         Route::get('/Laporan/Data-Produksi-Air-Mineral', LaporanProduksiAirMineral::class)->name('Nav.LaporanProduksiAirMineral');
         Route::get('/Laporan/Data-Transaksi-Pemesanan', LaporanTransaksiPemesanan::class)->name('Nav.LaporanTransaksiPemesanan');
+        Route::get('/Pesan/Bahan-Baku-Packing' , PesanBahanBakuPacking::class)->name('pesan.packing');
+        Route::get('/Pesan/Bahan-Baku-Air' , PesanBahanBakuAir::class)->name('pesan.Air');
         // Route::get("/table/Supplier", [DatatableController::class, 'SupplierTable'])->name('TabelSupplier');
     });
     Route::group(['middleware' =>  'role:Supplier', 'prefix' => 'Supplier', 'as' => 'Supplier.'], function () {

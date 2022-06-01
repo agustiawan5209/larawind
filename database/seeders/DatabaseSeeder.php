@@ -382,7 +382,7 @@ class DatabaseSeeder extends Seeder
                 'bawaan_id' => '2',
                 'isi' => '80',
                 'harga' => '375000',
-                'suppliers_id' => '3'
+                'suppliers_id' => '4'
             ],
         ];
         BahanBaku::insert($bahan);
